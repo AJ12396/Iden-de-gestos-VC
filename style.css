@@ -1,0 +1,34 @@
+/* #container_externo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.heading{
+    width: 100%;
+    margin: 0;
+    box-shadow: 5px 5px 5px lightblue;
+    font-size: 23px;
+}
+
+.note{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#container_footer {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(179, 179, 179);
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    border: 5px solid lightblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px lightblue;
+}
